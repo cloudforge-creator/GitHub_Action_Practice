@@ -1,3 +1,4 @@
+# This is the simple Flask App
 rom flask import Flask, render_template
 app = Flask(__name__)
 
