@@ -12,5 +12,5 @@ jobs:
       - name: Docker setup [login]
         uses: docker/login-action@v4
         with:
-          username: ${{ vars.DOCKERHUB_USERNAME }}
-          password: ${{ vars.secrets.DOCKERHUB.TOKEN }}
+          username: ${{ vars.DOCKERHUB_USERNAME3 }}
+          password: ${{ vars.secrets.DOCKERHUB.TOKEN1 }}
